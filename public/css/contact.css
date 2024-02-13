@@ -1,0 +1,240 @@
+/* --------------------------------------------------------Begin Of Contact Us------------------------------------------------------ */
+
+/* --------------------------------------------------------Begin Of Contact Us------------------------------------------------------ */
+
+.contacts {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../images/contactus/flower.jpg);
+    background-color: rgba(153, 51, 248, 0);
+    background-blend-mode: saturation;
+    background-size: cover;
+}
+
+.contacts .contents {
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contacts .contents h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #B76E79;
+    margin-bottom: 20px;
+}
+
+.contacts .contents p {
+    font-weight: 400;
+    color: #555;
+    font-size: 1.2em;
+    margin-top: 20px;
+    max-width: 700px; /* Added for better readability */
+    margin: auto;
+}
+
+.container-contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contactInfo {
+    margin-top: -300px;
+}
+
+.contactInfo .box {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.container-contact .contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactInfo .box {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.contactInfo .box .icon-c {
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); /* Added shadow effect */
+    color: #B76E79; /* Adjusted icon color */
+}
+
+
+.contactInfo .box .text {
+    display: flex;
+    padding-left: 20px;
+    margin-left: 20px;
+    flex-direction: column;
+    font-weight: 600;
+    text-align: left;
+    color: #333; /* Adjusted color for better contrast */
+}
+
+.contactInfo .box .text h3 {
+    font-weight: bold; /* Corrected property name */
+    color:#008B8B;
+    text-align: left; /* Adjusted alignment */
+}
+
+.container-contact .contactInfo .box .text p{
+    text-align: justify;
+}
+
+.contactInfo .box .text p {
+    text-align: left; /* Adjusted alignment */
+}
+
+.contactForm {
+    width: 100%;
+    max-width: 600px; /* Adjusted max width for better responsiveness */
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.9); /* Added a white background with transparency */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.contactForm h2 {
+    font-family: 'Open Sans', sans-serif; /* Changed font */
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 20px; /* Added space below the heading */
+}
+
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
+    width: calc(100% - 20px); /* Adjusted width for better spacing */
+    padding: 10px;
+    font-size: 1em;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-bottom: 2px solid #333;
+    resize: none;
+    border-radius: 5px; /* Removed border-radius for a cleaner look */
+    box-sizing: border-box;
+}
+
+.contactForm .inputBox span {
+    position: absolute;
+    left: 10px; /* Adjusted left position */
+    padding: 10px 0;
+    font-size: 1em; /* Adjusted font size */
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    columns: #666666;
+}
+
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span {
+    color: #e91e63;
+    font-size: 0.8em; /* Adjusted font size */
+    transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"] {
+    width: 100%;
+    background: linear-gradient(to right,#fa2a06,#f3c05b);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 1em; /* Adjusted font size */
+}
+
+.btn-grad {background-image: linear-gradient(to right, #6190E8 0%, #A7BFE8  51%, #6190E8  100%)}
+.btn-grad {
+    margin: 10px;
+    text-transform: uppercase;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
+    display:inline-block;
+    background: #9012f1; /* Purple color */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    background: #FFDB58;
+}
+
+.social {
+    margin-top: 8px;
+    text-align: center;
+    margin-right: 10px;
+    color: #333;
+}
+
+.social a {
+    margin: 0 5px;
+    color: black;
+}
+
+.social i {
+    font-size: 2em;
+}
+.social a:hover i {
+    color: #8A2BE2; /* Change to mauve, you can replace this with any color you prefer */
+}
+
+
+@media (max-width:991px){
+    .contacts {
+        padding: 50px;
+    }
+    .container-contact {
+        flex-direction: column;
+    }
+    .contactInfo {
+        margin-top: 30px;
+    }
+    .container-contact .contactInfo {
+        margin-bottom: 40px;
+    }
+    .container-contact .contactInfo, .contactForm {
+        width: 100%;
+    }
+}
+
+/* --------------------------------------------------------End of Contact Us ------------------------------------------------------ */
+
+/* --------------------------------------------------------End of Contact Us ------------------------------------------------------ */

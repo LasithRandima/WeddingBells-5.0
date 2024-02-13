@@ -1,0 +1,102 @@
+{
+    "name": "laravel/laravel",
+    "type": "project",
+    "description": "The skeleton application for the Laravel framework.",
+    "keywords": [
+        "laravel",
+        "framework"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.1",
+        "amidesfahani/filament-tinyeditor": "^1.1",
+        "awcodes/filament-curator": "^3.1",
+        "awcodes/filament-quick-create": "^3.2",
+        "awcodes/filament-tiptap-editor": "^3.0",
+        "awcodes/overlook": "^2.0",
+        "blade-ui-kit/blade-heroicons": "^2.1",
+        "davidhsianturi/blade-bootstrap-icons": "^1.4",
+        "filament/filament": "^3.0-stable",
+        "filament/forms": "^3.0-stable",
+        "filament/notifications": "^3.0",
+        "filament/tables": "^3.0-stable",
+        "guava/filament-icon-picker": "^2.0",
+        "guzzlehttp/guzzle": "^7.2",
+        "hasnayeen/themes": "^3.0",
+        "husam-tariq/filament-timepicker": "^3.0",
+        "icetalker/filament-table-repeater": "^1.1",
+        "jorenvanhocht/laravel-share": "^4.2",
+        "joshembling/image-optimizer": "^1.2",
+        "laravel/framework": "^10.10",
+        "laravel/jetstream": "^4.0",
+        "laravel/pulse": "^1.0@beta",
+        "laravel/sanctum": "^3.2",
+        "laravel/tinker": "^2.8",
+        "league/omnipay": "^3.2",
+        "livewire/livewire": "^3.0",
+        "munafio/chatify": "^1.6",
+        "omnipay/paypal": "^3.0",
+        "owenvoke/blade-fontawesome": "^2.5",
+        "pboivin/filament-peek": "^2.0",
+        "saade/filament-fullcalendar": "3.0",
+        "solution-forest/filament-simplelightbox": "^0.0.4",
+        "swisnl/filament-backgrounds": "^1.1",
+        "wire-elements/modal": "^2.0",
+        "z3d0x/filament-logger": "^0.6.1"
+    },
+    "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.9",
+        "fakerphp/faker": "^1.9.1",
+        "laravel/pint": "^1.0",
+        "laravel/sail": "^1.18",
+        "mockery/mockery": "^1.4.4",
+        "nunomaduro/collision": "^7.0",
+        "pestphp/pest": "^2.0",
+        "pestphp/pest-plugin-laravel": "^2.0",
+        "spatie/laravel-ignition": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi",
+            "@php artisan filament:upgrade"
+        ],
+        "post-update-cmd": [
+            "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
+        ],
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate --ansi"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "php-http/discovery": true
+        }
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true
+}

@@ -1,0 +1,134 @@
+footer {
+    background-color: #6A0DAD;
+    margin-top: 0;
+    color: white;
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin-bottom: 30px;
+}
+.follow-us:hover {
+    color: white;
+}
+
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #B76E79; /* Rose Gold */
+}
+
+
+.section-text {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.contact-details p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+
+.right-image img {
+    width: 100%;
+    height: auto;
+}
+
+.footer-copyright {
+    text-align: center;
+    border-top: 1px solid #ff6f61; /* Rose Gold */
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+
+.footer-content {
+    max-width: 300px;
+}
+
+.footerlogo {
+    max-width: 100%;
+    height: auto;
+    max-height: 100px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 3px;
+    padding-right: 10px;
+}
+
+
+
+.three_clo ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.three_clo ul li a:hover {
+    color: red;
+}
+
+.contact .contact-items p {
+    margin: 16px 0;
+    font-size: 16px;
+    margin-top: 4px;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.contact i {
+    color: #B76E79;
+    padding-right: 20px;
+
+}
+
+.number {
+    color: #B76E79;
+}
+
+.number a {
+    color: #B76E79;
+}
+.social-icon i {
+    margin-top: 0.5em;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 37px;
+    border: 1px solid #B76E79;
+    font-size: 16px;
+    color: #B76E79;
+    cursor: pointer;
+}
+
+.social-icon i:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+#footer {
+    background-color: #6A0DAD;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    text-align: center;
+	border-top: 1px solid #FFDB58;
+}
+#footer p {
+    margin: 0;
+
+}
+.copyright {
+    text-align: center;
+}

@@ -1,0 +1,364 @@
+.card-stats {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /* background:#333; */
+    margin-top: 30px;
+  }
+
+  .button_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .card-stats .stat {
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+  }
+  .card-stats :hover {
+    color: #de75f3;
+    opacity: 0.8;
+  }
+
+
+  .card-stats .border {
+    border-left: 1px solid rgb(172, 26, 87);
+    border-right: 1px solid rgb(172, 26, 87);
+  }
+  .card-stats .value{
+    font-size:15px;
+    font-weight: 500;
+  }
+  .card-stats .value sup{
+    font-size:10px;
+  }
+  .card-stats .type{
+    font-size:11px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+.carddata{
+  min-height: 280px;
+  max-height: 280px !important;
+}
+
+
+
+  .more-bttn {
+    padding: 10px 22px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    background: darkred;
+    letter-spacing: 2px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s;
+    margin-top:15px auto !important;
+
+}
+
+.more-bttn:hover {
+    background: #fff;
+    color: #000;
+}
+
+.container{
+    margin-bottom: 0%;
+}
+
+.inner{
+
+    /* width: auto; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 230px !important;
+    max-height: 230px !important;
+    overflow: hidden;
+}
+
+.inner img{
+    min-height: 230px !important;
+    max-height: 230px !important;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 1.5s ease;
+}
+
+.inner:hover img{
+    transform:scale(1.5);
+}
+
+.shadows:hover {
+    box-shadow: 2px 15px 70px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 15px 70px rgba(0,0,0,0.75);
+    -o-box-shadow: 2px 15px 70px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 15px 70px rgba(0,0,0,0.75);
+    -ms-box-shadow: 2px 15px 70px rgba(0,0,0,0.75);
+}
+
+.col-md-4{
+    margin-top: 2%;
+
+}
+
+.heart-position {
+    position: relative;
+}
+
+.heartIcon {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+    z-index: 100;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1200px) {
+  .col-md-4{
+    margin-right: 10%;
+
+}
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+  .col-md-4{
+    margin-left: 11%;
+    margin-right: 15%;
+  }
+  .carddata{
+    max-height: auto !important;
+  }
+}
+@media only screen and (min-width:380px) and (max-width:768px){
+  .col-md-4{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+}
+
+@media only screen and (min-width:769px) and (max-width:973px){
+  .col-md-4{
+    margin-left: 3%;
+    margin-right: 15%;
+  }
+  .carddata{
+    max-height: auto !important;
+  }
+
+}
+@media only screen and (min-width:974px) and (max-width:1199px){
+  .carddata{
+    min-height: 180px;
+    max-height: 188px;
+  }
+}
+
+
+/* --------------------------------------------------------Small Search Bar for vendor pages------------------------------------------------------ */
+
+.searcher{
+
+  color: #B08B2E;
+  font-weight: bolder;
+}
+.searchbarheader{
+  height: 24vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(111, 9, 124, 0.7)),url(../images/bgImages/searchbarheader2.png);
+  background-size:cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+
+}
+.search-bar {
+  position:relative;
+  top: 10px;
+  width: 80vw;
+  margin: 0 auto; /* Center horizontally */
+  z-index: 2;
+  margin-bottom: 20px;
+  background-color: #D58393; /* Champagne background */
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+.search-bar .btn {
+  background-color:#9248e6; /* Lavender Purple */
+  color: #fff; /* White text color */
+  border: 1px whitesmoke;
+transition: background-color 0.3s;
+}
+
+.search-bar .btn:hover {
+  background-color:  #D4AF37; /* Slightly Darker Purple on hover */
+}
+
+.search-field{
+  height:40px;
+  padding:10px;
+}
+
+.searchh1{
+  text-align: center;
+  color: #fff;
+  margin-bottom: 70px;
+  font-size: 45px;
+  letter-spacing: 2px;
+}
+
+.vendor{
+  width: 30vw;
+}
+
+.location{
+  width: 18vw;
+}
+
+.search-btn{
+  height: 40px;
+  width: 8vw;
+  background:#9248e6;
+  border:none;
+  color: #fff;
+  margin-left: 4px;
+}
+
+.search-btn:hover{
+  background:#7f19f3;
+  cursor: pointer;
+}
+.form-box{
+  background:rgba(255,255,255,0.4);
+  padding:20px 50px;
+}
+
+@media only screen and (min-width:200px) and (max-width:500px){
+  .search-btn{
+      font-size: 0.8em;
+      width: 10vw;
+  }
+  .vendor{
+      width: 60vw;
+  }
+  .location{
+      width: 46vw;
+  }
+  .searchh1{
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width:708px) and (max-width:768px){
+  .search-btn{
+    font-size: 0.8em;
+    width: 10vw;
+}
+  .vendor{
+      width: 25vw;
+  }
+  .location{
+      width: 12vw;
+  }
+
+}
+
+/* ----------------------------------------------------------NUMBERS------------------------------------------------------------------------------- */
+
+
+
+.numberss{
+  background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../images/bgImages/12459203_job523-nunoon-02.jpg);
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 100vh;
+  height: auto !important;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 50px;
+
+}
+
+.color-fff {
+  color: white;
+}
+
+.fs-35 {
+  font-size: 70px;
+}
+
+.fw-700 {
+  font-weight: bold;
+}
+
+.color-aaa {
+  text-transform: uppercase;
+  font-size: 500;
+  margin-bottom: 20px;
+  font-size: 23px;
+  color: white !important;
+  letter-spacing: 0px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.numbers i {
+  font-size: 80px;
+}
+
+.clock-header {
+  background: transparent;
+  width: 400px;
+  margin: 50px auto;
+  height: 175px;
+  position: relative;
+  padding: 30px;
+  z-index: 2;
+  align-items: center;
+
+}
+
+.badge {
+
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  padding: 5px 10px;
+  font-weight: bold;
+  width: 190px;
+  position: absolute;
+  top: -15px;
+  left: 28%;
+}
+
+.badge h2 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.clock {
+
+  text-align: center;
+  font-size: 50px;
+  height: 100px;
+  padding-top: 10px;
+  z-index: 2;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}

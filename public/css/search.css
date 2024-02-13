@@ -1,0 +1,132 @@
+/* --------------------------------------------------------------Full Search Bar------------------------------------------------------ */
+.searcher{
+    color: #501678;
+}
+.searchbarheader{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/slider/image2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    margin-top: 70px;
+    
+}
+
+.search-field{
+    height:40px;
+    padding:10px;
+    margin-left: 6px;
+}
+
+.searchh1{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 70px;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+.vendor{
+    width: 35vw;
+}
+
+.location{
+    width: 20vw;
+}
+
+.search-btn{
+    height: 40px;
+    width: 9vw;
+    background:#501678;
+    border:none;
+    color: #fff;
+}
+
+.search-btn:hover{
+    background:#501678;
+	opacity:0.8;
+    cursor: pointer;
+}
+.form-box{
+    background:rgba(255,255,255,0.5);
+    padding:28px 50px;
+}
+
+input[type=text]{
+    color:#2c2828;
+}
+
+@media only screen and (min-width:200px) and (max-width:500px){
+    .search-btn{
+        font-size: 0.8em;
+        width: 14vw;
+    }
+    .vendor{
+        width: 70vw;
+    }
+    .location{
+        width: 50vw;
+    }
+    .searchbarheader{
+        width: 100%;
+        margin-right: -5vw;
+    }
+    .searchh1{
+        font-size: 35px;
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    .form-box{
+        padding:28px 40px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width:720px){
+    .searchh1{
+        font-size: 45px;
+        padding-left: 15px;
+        padding-right: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (min-width:752px) and (max-width:920px){
+    .searchh1{
+        font-size: 45px;
+        padding-left: 15px;
+        padding-right: 20px;
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width:920px){
+    .search-btn{
+        font-size: 0.8em;
+        width: 14vw;
+    }
+    .vendor{
+        width: 40vw;
+    }
+    .location{
+        width: 30vw;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width:756px){
+    .search-btn{
+        font-size: 0.8em;
+        width: 10vw;
+    }
+    .vendor{
+        width: 38vw;
+    }
+    .location{
+        width: 26vw;
+    }
+}
+

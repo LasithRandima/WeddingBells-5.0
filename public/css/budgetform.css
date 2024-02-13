@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    padding: 1.5rem 0;
+    background-image: url('/images/Advertisement/Flower.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #4A235A; /* Dark purple text color */}
+
+    .gradient-overlay {
+        padding: 35px 100px;
+        background: linear-gradient(to right, rgba(192, 192, 192, 0.9), rgba(192, 192, 192, 0.9)); /* Adjust the gradient colors and opacity as needed */
+    }
+
+    .gradient-overlay-nopadding {
+        /* padding: 35px 100px; */
+        background: linear-gradient(to right, rgba(192, 192, 192, 0.9), rgba(192, 192, 192, 0.9)); /* Adjust the gradient colors and opacity as needed */
+    }
+
+    .gradient-overlay-table {
+        padding: 35px auto;
+        background: linear-gradient(to right, rgba(192, 192, 192, 0.9), rgba(192, 192, 192, 0.9));
+    }
+
+
+/* Adjust the text color of specific elements as needed */
+.hero h3{
+    color: #B76E79;
+    font-size: 1.75rem;
+}
+
+
+
+
+.hero h2 {
+    font-size: 19px;
+    margin-bottom: 10px;
+    letter-spacing: 12px;
+    color:#000;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.hero p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color:#333;
+
+}
+
+
+
+
+.hero form{
+    width: 90%;
+    max-width: 600px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+
+input{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #333;
+    color:#fff;
+    background: transparent;
+    font-size: 15px;
+    text-align: end;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #333;
+    color:#fff;
+    background: transparent;
+    font-size: 15px;
+    text-align: end;
+}
+select{
+    padding: 10px;
+    border: 1px solid #333;
+    color:#fff;
+    background: transparent;
+}
+
+select:focus{
+    padding: 10px;
+    border: 1px solid #333;
+    color:#333;
+    background: transparent;
+}
+
+
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #333;
+    cursor: text;
+    transition: 0.2s;
+
+}
+
+.text-rose-gold {
+    color: #B76E79 !important; /* Rose Gold color */
+}
+
+.event-btn{
+    padding: 10px 0;
+    color: #333;
+    outline: none;
+    background: transparent;
+    border: 1px solid #333;
+    width: 100%;
+    cursor: pointer;
+}
+
+.events{
+    width:100%;
+    text-align: left;
+    color: #333;
+}
+.budget_line{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+input:focus~label,
+input:valid~label {
+    top:-35px;
+    font-size: 14px;
+}
+
+
+select:focus~label,
+select:valid~label {
+    top:-35px;
+    font-size: 14px;
+}
+
