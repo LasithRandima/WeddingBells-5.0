@@ -3,7 +3,7 @@ Ready For aws Hosting
 
 # Wedding Directory - application
 
-This is laravel online colthing management aplication
+This is laravel livewire filament 3 aplication
 
 pre-requrements
 
