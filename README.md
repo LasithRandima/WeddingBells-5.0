@@ -1,7 +1,7 @@
 # WeddingBells-5.0
 Ready For aws Hosting
 
-# Clothing-Management-application
+# Wedding Directory - application
 
 This is laravel online colthing management aplication
 
