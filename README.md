@@ -1,9 +1,9 @@
 # WeddingBells-5.0
-Ready For aws Hosting
+Laravel application that transforms Sri Lanka's wedding industry by offering suppliers a dedicated advertising portal and couples a stress-free planning solution in one platform.
 
 # Wedding Directory - application
 
-This is laravel livewire filament 3 aplication
+This is laravel livewire filament 3 application. First you need to setup environment for running this project.
 
 pre-requrements
 
@@ -48,7 +48,7 @@ setup project
 
 9. change bellow if you use another one in .env file
 
-        DB_DATABASE=clara_clothing
+        DB_DATABASE=wedding_bells_4.0
 
         DB_USERNAME=root
 
