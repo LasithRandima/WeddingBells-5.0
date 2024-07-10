@@ -1,7 +1,8 @@
 # WeddingBells-5.0
 Laravel application that transforms Sri Lanka's wedding industry by offering suppliers a dedicated advertising portal and couples a stress-free planning solution in one platform.
 
-![Merchant Dashboard](public/dashboard_img/merchant Dashboard-WeddingBells.png)
+![Merchant Dashboard](public/dashboard_img/merchant-Dashboard-WeddingBells.png)
+![Dashboard](public/dashboard_img/Dashboard-Wedding-Bells.png)
 ![Dashboard](public/dashboard_img/Dashboard-Wedding-Bells.png)
 
 # Wedding Directory - application
