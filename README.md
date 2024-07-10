@@ -1,6 +1,9 @@
 # WeddingBells-5.0
 Laravel application that transforms Sri Lanka's wedding industry by offering suppliers a dedicated advertising portal and couples a stress-free planning solution in one platform.
 
+![Merchant Dashboard](public/dashbard_img/merchant_dashboard.png)
+![Dashboard](public/dashbard_img/dashboard.png)
+
 # Wedding Directory - application
 
 This is laravel livewire filament 3 application. First you need to setup environment for running this project.
